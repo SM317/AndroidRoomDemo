@@ -42,9 +42,9 @@ public abstract class EmployeeDatabase extends RoomDatabase {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            employeeDao.insert(new Employee("Sourabh Mehta", "Executive 3", 42284));
-            employeeDao.insert(new Employee("Manvi Ameta", "LST", 42323));
-            employeeDao.insert(new Employee("Shikhar Kumar", "Manager 1", 40828));
+            employeeDao.insert(new Employee("Sourabh", "Senior Developer", 42284));
+            employeeDao.insert(new Employee("Mehta", "Executive 3", 42323));
+            employeeDao.insert(new Employee("Sourabh Mehta", "Manager 1", 40828));
             return null;
         }
     }
